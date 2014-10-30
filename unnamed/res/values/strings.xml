@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">unnamed</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activate">Zum Aktivieren den Bildschirm berühren</string>
+    <string name="deactivate">Zum Deaktivieren den Bildschirm berühren</string>
+    <string name="options">Einstellungen</string>
+    <string name="title_activity_options">Einstellungen</string>
+    <string name="help">Hilfe</string>
+    <string name="sms">SMS</string>
+    <string name="phone">verpasste Anrufe</string>
+    <string name="app1">WhatsApp</string>
+    <string name="app2">Twitter</string>
+    <string name="app3">Gmail</string>
+    <string name="services">Von welchem Diensten wünschen Sie benachrichtigt zu werden:</string>
+
+</resources>

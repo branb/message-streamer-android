@@ -1,11 +1,19 @@
 package com.example.unnamed;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class OptionsActivity extends Activity {
+
+	enum SMS_State {
+		Activated, Deactivated
+	}
+
+	SMS_State sms = SMS_State.Deactivated;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,5 +38,21 @@ public class OptionsActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	public void contacts(View view) {
+		View b = findViewById(R.id.checkBox6);
+		View c = findViewById(R.id.checkBox7);
+		if (sms == SMS_State.Deactivated) {
+			b.setVisibility(View.VISIBLE);
+			c.setVisibility(View.VISIBLE);
+			sms = SMS_State.Activated;
+		}
+		else if (sms == SMS_State.Activated) {
+			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
+			sms = SMS_State.Deactivated;
+		}
+		
 	}
 }

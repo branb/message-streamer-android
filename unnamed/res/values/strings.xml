@@ -10,6 +10,8 @@
     <string name="title_activity_options">Einstellungen</string>
     <string name="help">Hilfe</string>
     <string name="sms">SMS</string>
+    <string name="kontakt1">Sarah</string>
+    <string name="kontakt2">Rolf</string>
     <string name="phone">verpasste Anrufe</string>
     <string name="app1">WhatsApp</string>
     <string name="app2">Twitter</string>
